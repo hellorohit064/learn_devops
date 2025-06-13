@@ -1,0 +1,118 @@
+Git and Github basics
+basic commands of git 
+PR merging branching strategies for devops
+hooks(pre-commit hooks)
+Repo setup end to end (github Action CI/CD)
+
+
+Gitlab/gitbucket difference
+
+
+
+
+What is git and diff in git and git hub
+
+git is vcs (version control system) 
+
+Git hub is a platform jiske backgroup pe git fundenmental ru
+
+
+SCM (source code management)
+
+
+
+
+
+mkidr github-for-devops
+
+
+
+vim testing.py
+print("hello dosto")
+
+
+python testing.py
+
+
+file system and git version control differ??
+
+file system we can;t recove delete file
+
+but in git we recover and roll backup the delete file
+
+
+#git basic commmand to initialise empty the git vcs repo
+git init
+
+
+git status 
+
+create new testing.py file
+
+git status
+#show untrack file
+
+
+untrack stages(red) --> staged(green) --> tracked stages
+
+file system --> VCS (then its tracked)
+
+ 
+#untrack to stage
+git add filename
+
+git status
+
+#unstage/untrack
+git rm --cache
+
+
+
+#all file
+git add .
+
+
+
+
+#stage to track
+git commit -m "added testing file"
+
+git status
+
+#if we now delete the file testing file we can recover
+git status
+
+
+git restore testing.py
+
+
+git status
+
+
+
+
+git command
+
+1) git init
+2) git status
+3) git add (untrack-stage)
+4) git commit -m "message" (stage-track)
+5) git restore (restore delete file)
+
+
+
+
+now we have push this local code to git hub
+
+
+
+ 
+github(make a new repo)--> make a same name of repo make public
+
+
+
+
+
+
+
+
